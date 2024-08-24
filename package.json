@@ -9,6 +9,12 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "cypress": "^13.13.3"
+    "cypress": "^13.13.3",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
